@@ -3,17 +3,20 @@ import Player from "@madzadev/audio-player";
 
 function Song({name = [], url = [], tag = []}) {
 
-  console.log(name);
-  console.log(url)
-  console.log(tag)
 
-  // const tracks = [
-  //   {
-  //       url: url,
-  //       title: name,
-  //       tags: tag   
-  //   }
-  // ];
+
+  const tracks = [
+      {
+        title: "example 1",
+        url: "https://firebasestorage.googleapis.com/v0/b/song-player-back.appspot.com/o/hiptobescared.mp3?alt=media&token=ae804ea5-4216-4044-aa23-f631c048a906",
+        tags: ["lml"]   
+      },
+      {
+        url: "https://firebasestorage.googleapis.com/v0/b/song-player-back.appspot.com/o/theamericannightmare.mp3?alt=media&token=d3696c53-7456-4375-800a-329f2e92fd9f",
+        title: "example 2",
+        tags: ["lml"]   
+      }
+  ];
 
   const colors = `html {
     --tagsBackground: #9440f3;
@@ -40,10 +43,10 @@ function Song({name = [], url = [], tag = []}) {
 
   return (
     <div>
-        {/* <Player 
-            // trackList={tracks}
+        <Player 
+            trackList={tracks}
             customColorScheme={colors}
-        /> */}
+        /> 
     </div>
   )
 }

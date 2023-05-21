@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Cambio 1</div>
+    <div>Cambio 2</div>
   )
 }
 

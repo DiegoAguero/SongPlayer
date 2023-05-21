@@ -11,6 +11,11 @@ const tracks = [
         url: "https://firebasestorage.googleapis.com/v0/b/song-player-back.appspot.com/o/hiptobescared.mp3?alt=media&token=ae804ea5-4216-4044-aa23-f631c048a906",
         title: "Hip to Be Scared",
         tags: ["Metal", "Ice Nine Kills"]
+    },
+    {
+        url:"https://cdn.discordapp.com/attachments/428318063990013952/1109864953491496970/Pink_Floyd_-_Breathe_In_The_Air_2023_Remaster_jcz0YxYl6Ac.mp3",
+        title: "Breathe (In the Air)",
+        tags: ["Oldies", "Pink Floyd"]
     }
   ];
 

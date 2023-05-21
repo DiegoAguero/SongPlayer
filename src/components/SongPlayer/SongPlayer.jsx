@@ -3,12 +3,12 @@ import Player from "@madzadev/audio-player";
 
 const tracks = [
     {
-        url: "https://cdn.discordapp.com/attachments/428318063990013952/1109848545378455652/theamericannightmare.mp3",
+        url: "https://firebasestorage.googleapis.com/v0/b/song-player-back.appspot.com/o/theamericannightmare.mp3?alt=media&token=d3696c53-7456-4375-800a-329f2e92fd9f",
         title: "The American Nightmare",
         tags: ["Metal", "Ice Nine Kills"]   
     },
     {
-        url: "https://cdn.discordapp.com/attachments/428318063990013952/1109849612308709416/hiptobescared.mp3",
+        url: "https://firebasestorage.googleapis.com/v0/b/song-player-back.appspot.com/o/hiptobescared.mp3?alt=media&token=ae804ea5-4216-4044-aa23-f631c048a906",
         title: "Hip to Be Scared",
         tags: ["Metal", "Ice Nine Kills"]
     }

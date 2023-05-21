@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <SongPlayer/>
+        <SongContainer/>
       <Footer/>
     </>
   );

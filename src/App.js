@@ -1,11 +1,12 @@
 import './App.css';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/Navbar/NavBar'
+import SongPlayer from './components/SongPlayer/SongPlayer';
 function App() {
   return (
     <>
       <NavBar/>
-      <h1>Hola</h1>
+      <SongPlayer/>
       <Footer/>
     </>
   );

@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Song({song_name, song, id}) {
+function Song({title, url, tags}) {
   return (
     <div>
-        <p>Song name: {song_name}</p>
-        <p>Song: {song}</p>
-        <p>Id: {id}</p>
+        <p>Song name: {title}</p>
+        <p>Song: {url}</p>
+        <p>Tags: {tags}</p>
     </div>
   )
 }

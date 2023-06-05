@@ -1,13 +1,14 @@
 import React from 'react'
-import Song from './Song'
+
 function SongPlayer({songs=[]}) {
+  // console.log(songs)
+  const trackList = songs
+  // console.log(songs)
   return (
     <>
       <div>
         {
-          songs.map((songs, key)=>(
-            <Song {...songs} key={key}/>
-          ))
+
         }
       </div>
     </>
